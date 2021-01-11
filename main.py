@@ -5,8 +5,9 @@ word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-guess = input("Enter your guess: ")
-guess = guess.lower()
+guess = input("Enter your guess: ").lower
+#guess = guess.lower()
+
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 for i in range(len(chosen_word)):
   if guess == chosen_word[i]:
