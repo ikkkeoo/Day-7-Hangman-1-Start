@@ -13,3 +13,9 @@ for i in range(len(chosen_word)):
   if guess == chosen_word[i]:
     print("Right")
   print("Wrong")
+  
+  #or we can use for loop to check letter by letter
+# for letter in chosen_word: #this will go letter by letter
+#   if letter == guess:
+#     print("Right")
+#   print("Wrong")
